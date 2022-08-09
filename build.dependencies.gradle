@@ -3,6 +3,7 @@ repositories {
     google() // Needed for androidx
     jcenter()  // Needed for tensorflow-lite
     maven { url = 'https://maven.brott.dev/' }
+    maven { url = 'https://jitpack.io' }
     flatDir {
         dirs rootProject.file('libs')
     }
@@ -28,5 +29,7 @@ dependencies {
     //ftc dash + roadrunner
     implementation 'org.openftc:easyopencv:1.5.1'
     //easy open cv
+    implementation 'com.github.amarcolini.joos:command:0.4.8'
+    //joos thingy
 }
 
