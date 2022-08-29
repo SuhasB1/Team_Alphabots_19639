@@ -30,7 +30,6 @@ dependencies {
     implementation 'org.openftc:easyopencv:1.5.1'
     //easy open cv
     implementation 'com.github.amarcolini.joos:command:0.4.8'
-    implementation 'com.github.amarcolini.joos:gui:0.4.7'
     //joos thingy
 }
 
